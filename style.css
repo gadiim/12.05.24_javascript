@@ -1,0 +1,22 @@
+html {
+    background-color: rgb(249, 249, 247);
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+li {
+    text-align: left;
+    cursor: pointer; 
+    /* margin-top: 25px; */
+    padding: 10px;
+}
+li:hover {
+    background-color: lightgray;
+}
+fieldset {
+    border-radius: 5px;
+    margin: 30px;
+}
+legend {
+    padding: 10px;
+}
