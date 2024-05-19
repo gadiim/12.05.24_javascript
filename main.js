@@ -9,7 +9,6 @@ function addData(name, phone, companyName, address) {
   }
   
   function renderUsers(users) {
-    console.log("Working with users:");
     users.forEach(u => addData(u.name, u.phone, u.company.name, u.address));
   }
   
